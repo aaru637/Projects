@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208235265663",
+    "project_id": "dgon-0123",
+    "storage_bucket": "dgon-0123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208235265663:android:e5eff45ca04e311f1a094a",
+        "android_client_info": {
+          "package_name": "com.example.dgon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208235265663-ucr6usur8dcb3mdviuh77ip73qa0n8m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrY41JsVeiZSlx-FJWrl6TZMQRceFoKik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208235265663-ucr6usur8dcb3mdviuh77ip73qa0n8m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

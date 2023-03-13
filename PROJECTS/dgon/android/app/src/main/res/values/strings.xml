@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Dgon</string>
+<string name="facebook_app_id">588479453110021</string>
+<string name="fb_login_protocol_scheme">fb1234</string>
+<string name="facebook_client_token">32333a0a1ef9b2452da8c6156e6bcec1</string>
+</resources>

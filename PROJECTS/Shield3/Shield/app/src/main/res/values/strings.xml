@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Shield</string>
+    <string name="father_number_details">Father Number Details</string>
+    <string name="register">Register</string>
+
+    <string-array name="Gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Districts">
+        <item>Select District</item>
+        <item>Ariyalur</item>
+        <item>Chengalpattu</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Cuddalore</item>
+        <item>Dharmapuri</item>
+        <item>Dindigul</item>
+        <item>Erode</item>
+        <item>Kallakurichi</item>
+        <item>Kancheepuram</item>
+        <item>Karur</item>
+        <item>Krishnagiri</item>
+        <item>Madurai</item>
+        <item>Mayiladuthurai</item>
+        <item>Nagapattinam</item>
+        <item>Kanyakumari</item>
+        <item>Namakkal</item>
+        <item>Perambalur</item>
+        <item>Pudukottai</item>
+        <item>Ramanathapuram</item>
+        <item>Ranipet</item>
+        <item>Salem</item>
+        <item>Sivagangai</item>
+        <item>Tenkasi</item>
+        <item>Thanjavur</item>
+        <item>Theni</item>
+        <item>Thiruvallur</item>
+        <item>Thiruvarur</item>
+        <item>Tuticorin</item>
+        <item>Trichirapalli</item>
+        <item>Thirunelveli</item>
+        <item>Tirupathur</item>
+        <item>Tiruppur</item>
+        <item>Tiruvannamalai</item>
+        <item>The Nilgiris</item>
+        <item>Vellore</item>
+        <item>Viluppuram</item>
+        <item>Virudhunagar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:orientation="vertical"
+    tools:context=".Register_Page"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="58dp"
+        android:fontFamily="@font/robotoslab"
+        android:text="Register"
+        android:textColor="@color/purple_700"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="409dp"
+        android:layout_height="565dp"
+        android:layout_marginBottom="53dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        tools:ignore="MissingClass,SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:background="@drawable/frameborder"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/text_border"
+                android:drawableLeft="@drawable/nameblack"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/mobile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/text_border"
+                android:drawableLeft="@drawable/callblack"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Mobile No"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/gender"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/text_border"
+                android:prompt="@array/Gender"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@+id/fmobile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mobile"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/fmobile"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/text_border"
+                android:drawableLeft="@drawable/callblack"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Father Mobile No"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/gmobile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+            <EditText
+                android:id="@+id/gmobile"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/text_border"
+                android:drawableLeft="@drawable/callblack"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Guardian Mobile No"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/registerbutton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fmobile" />
+
+            <Button
+                android:id="@+id/registerbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="41dp"
+                android:gravity="center"
+                android:text="Register"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gmobile" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
